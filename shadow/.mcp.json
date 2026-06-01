@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "shadow": {
+      "type": "http",
+      "url": "https://mcp.shadow.co",
+      "note": "Shadow MCP server. Uses OAuth on first connection. Connects Codex to your marketing data, Slack, meetings, and more."
+    }
+  }
+}

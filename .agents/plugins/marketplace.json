@@ -1,0 +1,20 @@
+{
+  "name": "shadow-marketplace",
+  "interface": {
+    "displayName": "Shadow"
+  },
+  "plugins": [
+    {
+      "name": "shadow",
+      "source": {
+        "source": "local",
+        "path": "./shadow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Marketing"
+    }
+  ]
+}

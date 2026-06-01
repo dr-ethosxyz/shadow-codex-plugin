@@ -1,0 +1,48 @@
+{
+  "name": "shadow",
+  "version": "1.0.1",
+  "description": "Shadow connects Codex to your marketing data, Slack, meetings, and integrations.",
+  "author": {
+    "name": "Shadow",
+    "url": "https://www.shadow.co"
+  },
+  "homepage": "https://www.shadow.co",
+  "repository": "https://github.com/dr-ethosxyz/shadow-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "analytics",
+    "meta-ads",
+    "shopify",
+    "google-ads",
+    "slack",
+    "meetings",
+    "ecommerce",
+    "dtc",
+    "performance-marketing"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Shadow",
+    "shortDescription": "Connect Codex to your marketing data, Slack, meetings, and integrations.",
+    "longDescription": "Shadow gives Codex live access to your marketing stack, Shopify, Slack, meeting notes, Google Drive, and more. Ask Codex to analyze ad performance, pull revenue summaries, review creative, summarize meetings, and send messages grounded in your real business data.",
+    "developerName": "Shadow",
+    "category": "Marketing",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://www.shadow.co",
+    "privacyPolicyURL": "https://www.shadow.co/privacy-policy-2026",
+    "termsOfServiceURL": "https://www.shadow.co/terms-of-service",
+    "defaultPrompt": [
+      "Give me a performance summary for last week",
+      "What were my top Meta ad sets this month?",
+      "Switch to the Acme workspace"
+    ],
+    "brandColor": "#171717",
+    "composerIcon": "./assets/shadow-icon.png",
+    "logo": "./assets/shadow-icon.png",
+    "screenshots": []
+  }
+}
