@@ -1,6 +1,6 @@
 {
   "name": "shadow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shadow connects Codex to your marketing data, Slack, meetings, and integrations.",
   "author": {
     "name": "Shadow",
@@ -25,7 +25,7 @@
   "interface": {
     "displayName": "Shadow",
     "shortDescription": "Connect Codex to your marketing data, Slack, meetings, and integrations.",
-    "longDescription": "Shadow gives Codex live access to your marketing stack, Shopify, Slack, meeting notes, Google Drive, and more. Ask Codex to analyze ad performance, pull revenue summaries, review creative, summarize meetings, and send messages grounded in your real business data.",
+    "longDescription": "Shadow gives Codex live access to your marketing stack, Shopify, Amazon Ads, Amazon Seller, Amazon Vendor, Slack, meeting notes, Google Drive, and more. Ask Codex to analyze ad performance, pull revenue summaries, review creative, summarize meetings, and send messages grounded in your real business data.",
     "developerName": "Shadow",
     "category": "Marketing",
     "capabilities": [
@@ -38,7 +38,7 @@
     "defaultPrompt": [
       "Give me a performance summary for last week",
       "What were my top Meta ad sets this month?",
-      "Switch to the Acme workspace"
+      "Show me Amazon Seller revenue by ASIN for last month"
     ],
     "brandColor": "#171717",
     "composerIcon": "./assets/shadow-icon.png",
